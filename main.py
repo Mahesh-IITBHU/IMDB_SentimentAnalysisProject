@@ -3,7 +3,7 @@ from joblib import load
 from fastapi import FastAPI
 from pydantic import BaseModel
 app = FastAPI()
-#fastApi
+
 vector = load("vectors.joblib")
 model = load("model.joblib")
 
